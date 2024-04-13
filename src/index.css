@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply min-h-[100vh] bg-Background-50 font-primary;
+  }
+}
+
+.swal2-container {
+  z-index: 20000;
+}
